@@ -29,6 +29,7 @@ All you need to do to use it is;
 - Share it with friends and family, have fun as you use it!
 
 ## Features
+
 - 100% free and open-source
 - No account needed
 - Unlimited users
@@ -36,42 +37,47 @@ All you need to do to use it is;
 - Screen sharing to present documents, slides, and more
 - Everyting is peer-to-peer thanks to webrtc.
 
-
 ## Tech stack
 
-| Codebase |      Description      |
-| :------- | :-------------------: |
-|front-end |          Vue          |
-| Real-time video |   WebRTC.      |
-|Server-side |  using an Open signaling server for now, built and deployed by <a href="https://github.com/westonsoftware/">westonsoftware</a>         |
+| Codebase        |                                                          Description                                                          |
+| :-------------- | :---------------------------------------------------------------------------------------------------------------------------: |
+| front-end       |                                                              Vue                                                              |
+| Real-time video |                                                            WebRTC.                                                            |
+| Server-side     | using an Open signaling server for now, built and deployed by <a href="https://github.com/westonsoftware/">westonsoftware</a> |
 
 ## Why use Kémeet?
+
 - It's free and Open-source(No premium, hidden cost, nothing. 100% free forever)
 - Fast and secure
 - No signups, just start the meeting and invite your fiends, familly or co-workers.
 - Cross platform since it works in the broswer, no need to install an app
 
 ## Getting Started🚀💻
+
 To get started! You're going to fork this repository, try creating a branch, make your changes, and create your first pull request!
 
-* You might want to check out the <a href="https://github.com/FotieMConstant/kemeet/issues">issues</a>
-
+- You might want to check out the <a href="https://github.com/FotieMConstant/kemeet/issues">issues</a>
 
 ## Contributing
-### Remember please all pull request should be sent to the dev branch*
+
+### Remember please all pull request should be sent to the dev branch\*
+
 Please read [CONTRIBUTING.md](https://github.com/FotieMConstant/kemeet/blob/main/CONTRIBUTING.md) for details on this project.
 
 ## Code of Conduct
+
 Please read [CODE_OF_CONDUCT.MD](https://github.com/FotieMConstant/kemeet/blob/main/CODE_OF_CONDUCT.md) for details on our code of conduct.
 
 ## KémeetReviewers
+
 Contributors helping to review/merge pull requests:
 
-* [@fotiecodes](https://github.com/FotieMConstant)
-* [@viryl15](https://github.com/viryl15)
+- [@fotiecodes](https://github.com/FotieMConstant)
+- [@viryl15](https://github.com/viryl15)
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details  
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
 <!-- ## Project setup
 ```

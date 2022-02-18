@@ -1,27 +1,23 @@
 module.exports = {
-  purge: { content: ['./public/**/*.html', './src/**/*.vue'] },
+  purge: { content: ["./public/**/*.html", "./src/**/*.vue"] },
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
         light: {
-          DEFAULT: '#FFFFFF',
-          accent: '#CBCBCB'
+          DEFAULT: "#FFFFFF",
+          accent: "#CBCBCB",
         },
       },
-      backgroundColor: {
-        
-      },
-      borderColor: {
-        
-      },
+      backgroundColor: {},
+      borderColor: {},
       screens: {
-        'md':'750px',
-      }
+        md: "750px",
+      },
     },
   },
   variants: {
     extend: {},
   },
   plugins: [],
-}
+};
