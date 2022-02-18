@@ -11,11 +11,14 @@
           :placeholder="$t('meetingStart.enterMeetingId')"
           id="room-input"
         />
-        <span v-if="meetingIdError" class="text-sm text-red-500">{{ meetingIdError }}</span>
+        <span v-if="meetingIdError" class="text-sm text-red-500">{{
+          meetingIdError
+        }}</span>
       </div>
       <div class="flex space-x-2 flex-nowrap">
         <div class="mt-2 mb-2">
-          <button @click="joinMeetingRoom"
+          <button
+            @click="joinMeetingRoom"
             class="px-3 py-2 font-medium text-white bg-red-400 rounded-lg"
           >
             {{ $t("meetingStart.joinMeeting") }}
@@ -29,7 +32,6 @@
             {{ $t("meetingStart.newMeeting") }}
           </router-link>
         </div>
-
       </div>
     </div>
     <div class="w-7/12 mx-auto mt-10 text-gray-500">
@@ -82,23 +84,22 @@ export default {
     this.getUniqueMeetingId();
   },
   methods: {
-    checkMeetingId(){
+    checkMeetingId() {
       this.meetingIdError = "";
 
-      if(this.roomId == ""){
-        this.meetingIdError = this.$t('errors.meeting.required');
-      }
-      else if(this.roomId.length != 20){
-        this.meetingIdError = this.$t('errors.meeting.lenght');
+      if (this.roomId == "") {
+        this.meetingIdError = this.$t("errors.meeting.required");
+      } else if (this.roomId.length != 20) {
+        this.meetingIdError = this.$t("errors.meeting.lenght");
       }
 
       return this.meetingIdError == "" ? true : false;
     },
-    joinMeetingRoom(){
+    joinMeetingRoom() {
       // validate the meeting ID input
-      if(this.checkMeetingId()){
+      if (this.checkMeetingId()) {
         // redirect to the meeting room
-        this.$router.push({name: 'Room', params: {roomId : this.roomId}});
+        this.$router.push({ name: "Room", params: { roomId: this.roomId } });
       }
     },
     getUniqueMeetingId() {

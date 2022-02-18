@@ -3,14 +3,17 @@
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
+
 ## Code of Conduct
+
 The code of conduct is described in [CODE_OF_CONDUCT.md](https://github.com/FotieMConstant/kemeet/blob/main/CODE_OF_CONDUCT.md)
 
-
 ## What do I need to know to help?
+
 If you are looking to help to with a code contribution our project uses **React, HTML/CSS, Javascript and Node.js for our server**. If you don't feel ready to make a code contribution yet, no problem! You can also check out the [documentation issues](https://github.com/FotieMConstant/kemeet/issues) or the design issues that we have [here](https://github.com/FotieMConstant/bond/issues).
 
 ## How do I make a contribution?
+
 Never made an open source contribution before? Wondering how contributions work in the in our project? Here's a quick rundown!
 
 1. Find an issue that you are interested in addressing or a feature that you would like to add.

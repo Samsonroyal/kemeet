@@ -1,11 +1,6 @@
 <template>
   <div
-    class="
-      flex flex-auto flex-wrap
-      justify-center
-      items-center
-      md:justify-between md:flex-nowrap
-    "
+    class="flex flex-auto flex-wrap justify-center items-center md:justify-between md:flex-nowrap"
   >
     <div class="px-8 py-2 w-full md:w-auto">
       <router-link
