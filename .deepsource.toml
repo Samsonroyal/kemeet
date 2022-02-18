@@ -1,1 +1,24 @@
 version = 1
+
+[[analyzers]]
+name = "test-coverage"
+enabled = true
+
+[[analyzers]]
+name = "shell"
+enabled = true
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  plugins = ["vue"]
+
+[[transformers]]
+name = "standardjs"
+enabled = true
+
+[[transformers]]
+name = "prettier"
+enabled = true
