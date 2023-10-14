@@ -35,14 +35,7 @@
           <div class="bg-gray-100 flex justify-between p-3 w-full rounded-full">
             <div>
               <span
-                class="
-                  material-icons-round
-                  bg-yellow-500
-                  text-white
-                  rounded-full
-                  p-3
-                  cursor-pointer
-                "
+                class="material-icons-round bg-yellow-500 text-white rounded-full p-3 cursor-pointer"
               >
                 emoji_emotions
               </span>
@@ -56,14 +49,7 @@
             </div>
             <div>
               <span
-                class="
-                  material-icons-round
-                  bg-blue-500
-                  text-white
-                  rounded-full
-                  p-3
-                  cursor-pointer
-                "
+                class="material-icons-round bg-blue-500 text-white rounded-full p-3 cursor-pointer"
               >
                 send
               </span>

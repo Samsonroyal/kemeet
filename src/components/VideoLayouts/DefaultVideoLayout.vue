@@ -13,34 +13,14 @@
         <div class="flex space-x-3">
           <div>
             <span
-              class="
-                material-icons-round
-                text-green-500
-                bg-white
-                p-2
-                px-3
-                rounded-full
-                text-base
-                cursor-pointer
-                transform
-                rotate-45
-              "
+              class="material-icons-round text-green-500 bg-white p-2 px-3 rounded-full text-base cursor-pointer transform rotate-45"
             >
               push_pin
             </span>
           </div>
           <div>
             <span
-              class="
-                material-icons-round
-                text-white
-                bg-blue-500
-                p-2
-                px-3
-                rounded-full
-                text-base
-                cursor-pointer
-              "
+              class="material-icons-round text-white bg-blue-500 p-2 px-3 rounded-full text-base cursor-pointer"
             >
               mic
             </span>
@@ -75,16 +55,7 @@
           <div class="flex space-x-3">
             <div>
               <span
-                class="
-                  material-icons-round
-                  text-white
-                  bg-blue-500
-                  p-1
-                  px-2
-                  rounded-full
-                  text-base
-                  cursor-pointer
-                "
+                class="material-icons-round text-white bg-blue-500 p-1 px-2 rounded-full text-base cursor-pointer"
               >
                 mic
               </span>
@@ -116,16 +87,7 @@
           <div class="flex space-x-3">
             <div>
               <span
-                class="
-                  material-icons-round
-                  text-gray-600
-                  bg-white
-                  p-1
-                  px-2
-                  rounded-full
-                  text-base
-                  cursor-pointer
-                "
+                class="material-icons-round text-gray-600 bg-white p-1 px-2 rounded-full text-base cursor-pointer"
               >
                 mic_off
               </span>
@@ -157,16 +119,7 @@
           <div class="flex space-x-3">
             <div>
               <span
-                class="
-                  material-icons-round
-                  text-white
-                  bg-blue-500
-                  p-1
-                  px-2
-                  rounded-full
-                  text-base
-                  cursor-pointer
-                "
+                class="material-icons-round text-white bg-blue-500 p-1 px-2 rounded-full text-base cursor-pointer"
               >
                 mic
               </span>
