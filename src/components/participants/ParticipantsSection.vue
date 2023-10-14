@@ -6,18 +6,7 @@
         <div class="flex relative w-44">
           <div class="font-bold text-2xl">Participants</div>
           <div
-            class="
-              absolute
-              -top-2
-              right-2
-              bg-blue-500
-              text-white
-              p-1
-              px-2.5
-              my-auto
-              rounded-full
-              text-xs
-            "
+            class="absolute -top-2 right-2 bg-blue-500 text-white p-1 px-2.5 my-auto rounded-full text-xs"
           >
             32
           </div>
@@ -29,14 +18,7 @@
     <div class="__participants relative">
       <!-- item -->
       <div
-        class="
-          flex
-          justify-between
-          hover:bg-gray-100
-          p-2
-          cursor-pointer
-          rounded-full
-        "
+        class="flex justify-between hover:bg-gray-100 p-2 cursor-pointer rounded-full"
       >
         <div class="flex justify-between space-x-6">
           <div>

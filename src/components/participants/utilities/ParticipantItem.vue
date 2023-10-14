@@ -1,14 +1,7 @@
 <template>
   <!-- item -->
   <div
-    class="
-      flex
-      justify-between
-      hover:bg-gray-100
-      p-2
-      cursor-pointer
-      rounded-full
-    "
+    class="flex justify-between hover:bg-gray-100 p-2 cursor-pointer rounded-full"
   >
     <div class="flex justify-between space-x-6">
       <div>

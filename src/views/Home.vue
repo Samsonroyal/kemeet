@@ -28,15 +28,7 @@
           </div>
           <div class="mt-2 mb-2">
             <router-link
-              class="
-                inline-flex
-                px-3
-                py-2
-                font-medium
-                text-white
-                bg-green-500
-                rounded-lg
-              "
+              class="inline-flex px-3 py-2 font-medium text-white bg-green-500 rounded-lg"
               :to="`/${$i18n.locale}/room/${newMeetingRoomId}`"
             >
               {{ $t("meetingStart.newMeeting") }}
@@ -136,7 +128,7 @@ export default {
       var charactersLength = characters.length;
       for (var i = 0; i < length; i++) {
         result += characters.charAt(
-          Math.floor(Math.random() * charactersLength)
+          Math.floor(Math.random() * charactersLength),
         );
       }
       return result;
